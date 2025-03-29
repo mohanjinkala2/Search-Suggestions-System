@@ -1,8 +1,8 @@
-# **Introduction**:
+# **INTRODUTION**:
 
 You are given an array of strings products and a string searchWord.Design a system that suggests at most three product names from products after each character of searchWord is typed. Suggested products should have common prefix with searchWord. If there are more than three products with a common prefix return the three lexicographically minimums products.Return a list of lists of the suggested products after each character of searchWord is typed.
 
-# **Implementation**:
+# **IMPLEMENTATION**:
 
   To implement This, Here We Used Trie Data Structure.
 
@@ -20,4 +20,6 @@ search suggestions system is widely used in real life for enhancing user experie
 searches, and improving accuracy.EXAMPLES:1)E-commerce sites (Amazon, eBay)– Suggest products based on user
 input.2)Google, Bing, and Yahoo– Auto-complete queries based on popular searches.3)Messaging Apps (WhatsApp,
 Telegram)– Predict words for faster typing.
-
+# **EXAMPLE**:
+Input: products = ["mobile","mouse","moneypot","monitor","mousepad"], searchWord = "mouse"
+Output: [["mobile","moneypot","monitor"],["mobile","moneypot","monitor"],["mouse","mousepad"],["mouse","mousepad"],["mouse","mousepad"]]
