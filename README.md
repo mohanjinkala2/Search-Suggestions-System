@@ -6,7 +6,7 @@ You are given an array of strings products and a string searchWord.Design a syst
 
   To implement This, Here We Used Trie Data Structure.
 
-  # STEPS:
+  # **STEPS**:
 
      1)we want To Create a Trie Class
      2)we need to insert words present in products array one by one into Trie,for this we define insert method in trie class.
