@@ -8,7 +8,11 @@ You are given an array of strings products and a string searchWord.Design a syst
 
   # **STEPS**:
 
-     1)we want To Create a Trie Class
+     1)we want To Create a Trie Class which contain's:
+         i)hash map # which store word alphabets
+         ii)boolean value(True/false) # which indicate end of word
+         iii)insert method
+         iv)prefix method
      2)we need to insert words present in products array one by one into Trie,for this we define insert method in trie class.
      3)we need to take words from trie,whose's Prefix match with entered searchwordWord.if we have more words then we want to take three lexicographically minimums 
      products.
