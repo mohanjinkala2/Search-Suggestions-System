@@ -12,7 +12,7 @@ You are given an array of strings products and a string searchWord.Design a syst
      2)we need to insert words present in products array one by one into Trie,for this we define insert method in trie class.
      3)we need to take words from trie,whose's Prefix match with entered searchwordWord.if we have more words then we want to take three lexicographically minimums 
      products.
-     4)for performing '3' step we use DFS(depth first Search) on Trie.
+     4)for performing '3'rd step we apply DFS(depth first Search) on Trie.
 
 # **RESULT/USES**:
 
