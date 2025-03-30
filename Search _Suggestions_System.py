@@ -46,3 +46,6 @@ class Solution:
             trie1.prefix(y,r)
             t.append(r+[])
         return t
+products=input().split(',')
+searchword=input()
+print(suggestedProducts(products, searchword))
